@@ -1,0 +1,69 @@
+.full{
+  background: #FFF;
+}
+.logo {
+  background: #ffffff url(logo.png) no-repeat 50% 24px;
+  background-size: 24px;
+  width: 100%;
+  height: 75px;
+}
+h2, .asociar{
+    font-size: 1.875rem !important;
+    line-height: 2.25rem !important;
+    font-weight: 300 !important;
+    text-transform: none !important;
+    font-family: 'PayPal-Sans-Big', Helvetica Neue, Arial, sans-serif;
+    direction: ltr !important;
+    text-align: center !important;
+}
+.borde{
+  margin: 120px auto 0;
+  padding: 42px 42px 36px;
+  border: 1px solid
+  #eaeced;
+  overflow: hidden;
+  position: relative;
+  margin: 130px auto 0;
+  padding: 30px 10% 50px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+.paypal-logo {
+    margin: 0 auto 20px;
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.paypal-logo-long {
+    background: 
+    transparent url(paypal-logo-129x32.svg) top center no-repeat;
+        background-size: auto;
+    background-size: auto 28px;
+    width: 129px;
+    height: 32px;
+    display: block;
+}
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+  display: none;
+}
+form{
+  margin: 0 auto;
+  display: block;
+}
+@media (max-width: 768px){
+  .borde{
+    border: 0px solid rgba(0,0,0,0)!important;
+    margin: 20px 0px 0px 0px !important;
+    padding: 0px !important;
+    overflow: hidden;
+    position: relative;
+  }
+  form{
+    margin:0px!important;
+    display: block;
+    width: 100%!important;
+    padding: 0 8% 30px;
+  }
+}
